@@ -20,20 +20,25 @@ In backend(backend data to be  here)
 SEO-Car-Site Structure:
 
 |__backend (To crate a folder)
-  |__uploads (folder)
-  |__server.js
-  |__.env (connection to mongoDB Atlas)
+
+    |__uploads (folder)
+    
+    |__server.js
+    
+    |__.env (connection to mongoDB Atlas)
+    
 |__frontend (To create a app)
-  |__public
-    |__index.html (Add a bootstrap link here)
-  |__src
-    |__images(folder)
-    |__Cars.js
-    |__Car.css
-    |__Footer.js
-    |__Footer.css
-    |__jsonformat.txt (json data here to upload the mongodb atlas)
-  |__package.json
+
+          |__public
+            |__index.html (Add a bootstrap link here)
+          |__src
+            |__images(folder)
+            |__Cars.js
+            |__Car.css
+            |__Footer.js
+            |__Footer.css
+            |__jsonformat.txt (json data here to upload the mongodb atlas)
+          |__package.json
 
 MongoDB Atlas to Create DB and collection:
 
